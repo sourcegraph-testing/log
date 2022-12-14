@@ -9,7 +9,7 @@ jobs:
     # Skip running on forks
     if: github.repository == 'sourcegraph/log'
     runs-on: ubuntu-latest
-    container: sourcegraph/lsif-go
+    container: sourcegraph/scip-go
     steps:
       # Setup
       - name: Checkout
